@@ -1,0 +1,36 @@
+//snippet-generator.app
+
+{
+
+	"New Controller": {
+		"prefix": "nCon",
+		"body": [
+		  "using Microsoft.AspNetCore.Mvc;",
+		  "using System.Text.Encodings.Web;",
+		  "",
+		  "namespace ${1:ControllerName}.Controllers",
+		  "{",
+		  "    public class ${1:ControllerName}Controller : Controller",
+		  "    {",
+		  "        // ",
+		  "        // GET: /${1:ControllerName}/",
+		  "",
+		  "        public string Index()",
+		  "        {",
+		  "            return \"This is my default action...\";",
+		  "        }",
+		  "",
+		  "        // ",
+		  "        // GET: /${1:ControllerName}/Welcome/ ",
+		  "",
+		  "        public string Welcome()",
+		  "        {",
+		  "            return \"This is the Welcome action method...\";",
+		  "        }",
+		  "    }",
+		  "}"
+		],
+		"description": "New Controller"
+	  }
+
+}
