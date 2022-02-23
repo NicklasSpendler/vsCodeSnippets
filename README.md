@@ -1,1 +1,1 @@
-# vsCodeSnippets
+# Snippets for VSCode
